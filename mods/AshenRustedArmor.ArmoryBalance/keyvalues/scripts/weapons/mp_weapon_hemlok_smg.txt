@@ -1,0 +1,28 @@
+//		Falloff adjustment
+//	Made falloff linear, increasing the range at which far damage is applied.
+//	Significantly reduced long-range damage, slightly reduced range.
+
+//  Distance       0        500       1k0       1k5       2k0       2k5       3k0       3k5       4k0       4k5       5k0
+//	============== # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = #
+//	Original HTK: 4.0 --------------- 6.7 ----- 8.3 ----------------------------
+//	Modified HTK: 4.0 ------------- 6.7 ------------- 11+ ----------------
+
+WeaponData
+{
+	//		Damage
+	//	Direct damage
+	"damage_near_value"								"25"
+	"damage_near_value_titanarmor"					"90"
+
+	"damage_far_value"								"15"
+	"damage_far_value_titanarmor"					"54"	//"60"
+	
+	"damage_very_far_value"							"9"		//"12"
+
+	"damage_near_distance"							"900"	//"1000"
+	"damage_far_distance" 							"1800"	//"1500"
+	"damage_very_far_distance" 						"2700"	//"3000"
+
+	//   Crosshair
+    "red_crosshair_range" 							"900"	//"1000"
+}

@@ -1,0 +1,16 @@
+{
+	"Name" : "AshenRustedArmor.ArmoryUtils",
+	"Description" : "Utility functionality.",
+	"Version": "0.1.1",
+
+	"LoadPriority": 1,
+	"RequiredOnClient": true,
+
+	"Localisation": [
+		"resource/aa-utils_%language%.txt"
+	],
+
+	"Dependencies": {  },
+
+	"Scripts": [  ]
+}

@@ -1,0 +1,17 @@
+{
+	"Name" : "AshenRustedArmor.ArmoryFixes",
+	"Description" : "Associated bugfixes for my content mod.",
+	"Version": "0.1.1",
+
+	"LoadPriority": 1,
+	"RequiredOnClient": true,
+
+	"Localisation": [
+		"resource/aa-fixes_%language%.txt"
+	],
+
+	"Dependencies": {  },
+
+	"Scripts": [  ]
+
+}

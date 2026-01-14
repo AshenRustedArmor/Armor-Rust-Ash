@@ -1,0 +1,16 @@
+{
+	"Name" : "AshenRustedArmor.ArmoryContent",
+	"Description" : "The Frontier War never ended. The collapse of the IMC brought a tide of new conflict as its subsidiaries fought tooth and nail over the dissolved mega-conglomerate's property. With this came the creation of weapons the likes of which had never before been seen...\n\nThis mod significantly expands upon the content of the base game, adding new weapons, new titans, and much more.\n\nCredit to:\n\tTheAvaliEngineer - Mod Author/Lead Developer\n\tGalacticMoblin - Developer (Balance, Bugfixes, Filestructure)\n\tEXRILL - Contributor (SFX, Particles)\n\tSeQwin - Contributor (Localisation)\n\tBaconVigilante - Tester\n\tIvan4ik - Contributor (Crosshairs)",
+	"Version": "0.12.265",
+
+	"LoadPriority": 1,
+	"RequiredOnClient": true,
+
+	"Localisation": [
+		"resource/aa-content_%language%.txt"
+	],
+
+	"Dependencies": {  },
+
+	"Scripts": [  ]
+}

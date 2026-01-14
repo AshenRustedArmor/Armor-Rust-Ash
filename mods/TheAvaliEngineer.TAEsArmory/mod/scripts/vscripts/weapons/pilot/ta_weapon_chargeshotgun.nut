@@ -222,12 +222,9 @@ int function FireChargeShotgun( entity weapon, WeaponPrimaryAttackParams attackP
 	if( !IsValid(owner) ) return 0
 
 	//	Projectile creation check
-    bool shouldCreateProjectile = false
-    if ( IsServer() || weapon.ShouldPredictProjectiles() )
-		shouldCreateProjectile = true
+    bool shouldCreateProjectile = (IsServer() || weapon.ShouldPredictProjectiles())
 	#if CLIENT
-		if ( !playerFired )
-			shouldCreateProjectile = false
+		&& playerFired
 	#endif
 
     //	Aim angle calculations

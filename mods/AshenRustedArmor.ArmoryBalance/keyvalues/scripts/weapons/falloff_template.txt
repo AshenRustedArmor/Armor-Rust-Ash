@@ -1,0 +1,27 @@
+//		Falloff adjustment
+//	Description goes here.
+
+//  Distance       0        500       1k0       1k5       2k0       2k5       3k0       3k5       4k0       4k5       5k0
+//	============== # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = # = = = = #
+//	Original HTK: x.x ---------------------------------------------------------------------------------------------------
+//	Modified HTK: y.y ---------------------------------------------------------------------------------------------------
+
+WeaponData
+{
+	//		Damage
+	//	Direct damage
+	"damage_near_value"								"*1"
+	"damage_near_value_titanarmor"					"*1"
+
+	"damage_far_value"								"*1"
+	"damage_far_value_titanarmor"					"*1"
+	
+	"damage_very_far_value"							"*1"
+
+	"damage_near_distance"							"*1"	//"*1"
+	"damage_far_distance" 							"*1"	//"*1"
+	"damage_very_far_distance" 						"*1"	//"*1"
+
+	//   Crosshair
+    "red_crosshair_range" 							"*1"	//"*1"
+}
